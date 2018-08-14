@@ -67,7 +67,7 @@ def main_headupload():
 if __name__ == '__main__':
     # port可以指定端口，默认端口是5000
     # host写成0.0.0.0的话，其他人可以访问，代表监听多块网卡上面，默认是127.0.0.1
-    #server.run(debug=None, port=80, host='127.0.0.1')
+    #server.run(debug=False, port=80, host='0.0.0.0')
     server.run(debug=False, host='0.0.0.0') 
     #server.run(debug=False, host='118.25.95.202') 
 
